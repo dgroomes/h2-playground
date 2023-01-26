@@ -12,28 +12,33 @@
 > -- <cite> https://h2database.com/html/main.html <cite>
 
 
-## Description
+## Overview
 
-This project implements a runnable Java program that embeds an H2 database.
+This codebase is my way of learning H2 and building a corpus of runnable reference code.
+
+**NOTE**: This project was developed on macOS. It is for my own personal use.
 
 
-### Instructions
+## Standalone sub-projects
 
-Follow these instructions to build and run the program:
+This repository illustrates different concepts, patterns and examples via standalone sub-projects. Each sub-project is
+completely independent of the others and do not depend on the root project. This _standalone sub-project constraint_
+forces the sub-projects to be complete and maximizes the reader's chances of successfully running, understanding, and
+re-using the code.
 
-1. Use Java 17
-2. Run the program:
-   * ```shell
-     ./gradlew run
-     ```
-   * Altogether, it will look something like this:
-     ```text
-     $ ./gradlew run
-     
-     > Task :run
-     18:33:29 [main] INFO dgroomes.App - Found this observation: Observation[id=1, observation=The sky is blue]
-     18:33:29 [main] INFO dgroomes.App - Found this observation: Observation[id=2, observation=The speed of light can circle the earth 7 times in a second]
-     ```
+The sub-projects include:
+
+
+### `basic/`
+
+A simple Java program that embeds an in-memory H2 database.
+
+See the README in [basic/](basic/).
+
+
+### `advanced/`
+
+NOT YET IMPLEMENTED
 
 
 ## Wish List
@@ -42,7 +47,7 @@ General clean-ups, TODOs and things I wish to implement for this project:
 
 * [ ] Showcase H2 logging config (I always want to know how to do logging to help observe a sophisticated system, like
   a database and database client).
-* [ ] Consider running H2 as a server. I think this is a good idea because it will allow me to connect to the database
+* [ ] Consider running H2 as a server (long-running process). I think this is a good idea because it will allow me to connect to the database
   from a GUI client (Intellij) and explore the db like I normally would.
 * [ ] Do something with Java-defined functions as stored procedures. This is a killer feature of H2, is that it is
   itself a Java library so it interops perfectly with custom Java code.
