@@ -38,7 +38,9 @@ See the README in [basic/](basic/).
 
 ### `advanced/`
 
-An intermediate H2 example program showcasing "server mode", logging, and custom Java stored procedures (stored procs not implemented).
+An intermediate H2 example program showcasing "server mode" and connection logging.
+
+See the README in [advanced/](advanced/).
 
 
 ## Wish List
