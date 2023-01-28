@@ -38,14 +38,14 @@ See the README in [basic/](basic/).
 
 ### `advanced/`
 
-NOT YET IMPLEMENTED
+An intermediate H2 example program showcasing "server mode", logging, and custom Java stored procedures (stored procs not implemented).
 
 
 ## Wish List
 
 General clean-ups, TODOs and things I wish to implement for this project:
 
-* [ ] Showcase H2 logging config (I always want to know how to do logging to help observe a sophisticated system, like
+* [ ] IN PROGRESS Showcase H2 logging config (I always want to know how to do logging to help observe a sophisticated system, like
   a database and database client).
 * [ ] Consider running H2 as a server (long-running process). I think this is a good idea because it will allow me to connect to the database
   from a GUI client (Intellij) and explore the db like I normally would.
