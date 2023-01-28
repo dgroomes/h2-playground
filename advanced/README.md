@@ -38,6 +38,13 @@ Follow these instructions to build and run the program:
        23:34:11 [H2 TCP Server (tcp://localhost:8084) thread-1] INFO h2database - mydb:database closed
        ```
 4. Connect via your favorite JDBC client
-    * TODO
     * I personally use Intellij Ultimate to connect to and interact with databases.
-    * What JDBC URL do I use?
+    * Connect using the JDBC URL: `jdbc:h2:tcp://localhost:8084/mydb`
+
+
+## Wish List
+
+General clean-ups, TODOs and things I wish to implement for this project:
+
+* [ ] Do something with Java-defined functions as stored procedures. This is a killer feature of H2, is that it is
+  itself a Java library so it interops perfectly with custom Java code.
