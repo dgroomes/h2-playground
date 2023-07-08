@@ -22,7 +22,7 @@ Follow these instructions to build and run the program:
     * ```shell
       ./build/install/advanced/bin/advanced
       ```
-    * Study the output. While the logs aren't the highest quality, they do tell a good story. Here are some highlights.
+    * Study the output. While the logs are a bit low-level, they do tell a good story. Here are some highlights.
     *  ```text
        23:34:11 [main] INFO h2database - mydb:database opening /Users/davidgroomes/repos/personal/h2-playground/advanced/mydb (build 214)
        ...
@@ -46,5 +46,5 @@ Follow these instructions to build and run the program:
 
 General clean-ups, TODOs and things I wish to implement for this project:
 
-* [ ] Do something with Java-defined functions as stored procedures. This is a killer feature of H2, is that it is
+* [ ] Do something with Java-defined functions as stored procedures. This is a killer feature of H2, in that it is
   itself a Java library so it interops perfectly with custom Java code.
